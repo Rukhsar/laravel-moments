@@ -4,7 +4,7 @@ namespace Rukhsar\Moments;
 
 use Carbon\Carbon;
 
-trait Moments;
+trait Moments
 {
     /**
      * Scope a query to only include the current minute entries.
@@ -16,8 +16,9 @@ trait Moments;
     {
         return $query->whereBetween('created_at',
             [
-                Carbon::now->second(0),
+                Carbon::now()->second(0),
                 Carbon::now()
-            ]);
+            ]
+        );
     }
 }
