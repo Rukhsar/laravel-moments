@@ -36,5 +36,10 @@ Then you can call Moments scopes like below
 
 ### Available Methods
 
-    - currentMinute
-            Include the current minute records from model.
+    1. `currentMinute`
+        Parameter : none
+        Result : Include the current minute records from model.
+    2. `lastMinute`
+        Parameter : none
+        Result : Include the last minute records from model.
+
