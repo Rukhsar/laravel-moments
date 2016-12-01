@@ -36,9 +36,5 @@ Then you can call Moments scopes like below
 
 ### Available Methods
 
-|       |       |       |       |       |
-|:-:    |:-:    |:-:    |---    |---    |
-|       |       |       |       |       |
-|       |       |       |       |       |
-|       |       |       |       |       |
-
+    - currentMinute
+            Include the current minute records from model.

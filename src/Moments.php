@@ -8,7 +8,7 @@ trait Moments
 {
 
     /**
-     * Only include the current minute records from model.
+     * Include the current minute records from model.
      *
      * @param $query
      * @return \Illuminate\Database\Eloquent\Builder
@@ -24,7 +24,7 @@ trait Moments
     }
 
     /**
-     * Only include the last minute records from model.
+     * Include the last minute records from model.
      *
      * @param $query
      * @return \Illuminate\Database\Eloquent\Builder
@@ -40,7 +40,7 @@ trait Moments
     }
 
     /**
-     * Only include the current hour records from model.
+     * Include the current hour records from model.
      *
      * @param $query
      * @return \Illuminate\Database\Eloquent\Builder
@@ -56,7 +56,7 @@ trait Moments
     }
 
     /**
-     * Only include the last hour records from model.
+     * Include the last hour records from model.
      *
      * @param $query
      * @return \Illuminate\Database\Eloquent\Builder
@@ -72,7 +72,7 @@ trait Moments
     }
 
     /**
-     * Only include the current day records from model.
+     * Include the current day records from model.
      *
      * @param $query
      * @return \Illuminate\Database\Eloquent\Builder
@@ -88,7 +88,7 @@ trait Moments
     }
 
     /**
-     * Only include the last day records from model.
+     * Include the last day records from model.
      *
      * @param $query
      * @return \Illuminate\Database\Eloquent\Builder
@@ -104,7 +104,7 @@ trait Moments
     }
 
     /**
-     * Only include the current week records from model.
+     * Include the current week records from model.
      *
      * @param $query
      * @return \Illuminate\Database\Eloquent\Builder
@@ -120,7 +120,7 @@ trait Moments
     }
 
     /**
-     * Only include the last week records from model.
+     * Include the last week records from model.
      *
      * @param $query
      * @return \Illuminate\Database\Eloquent\Builder
@@ -136,7 +136,7 @@ trait Moments
     }
 
     /**
-     * Only include the current month records from model.
+     * Include the current month records from model.
      *
      * @param $query
      * @return \Illuminate\Database\Eloquent\Builder
@@ -152,7 +152,7 @@ trait Moments
     }
 
     /**
-     * Only include the last month records from model.
+     * Include the last month records from model.
      *
      * @param $query
      * @return \Illuminate\Database\Eloquent\Builder
@@ -168,7 +168,7 @@ trait Moments
     }
 
     /**
-     * Only include the current year records from model.
+     * Include the current year records from model.
      *
      * @param $query
      * @return \Illuminate\Database\Eloquent\Builder
@@ -184,7 +184,7 @@ trait Moments
     }
 
     /**
-     * Only include the last year records from model.
+     * Include the last year records from model.
      *
      * @param $query
      * @return \Illuminate\Database\Eloquent\Builder
@@ -200,7 +200,7 @@ trait Moments
     }
 
     /**
-     * Only include the last x seconds records from model.
+     * Include the last x seconds records from model.
      *
      * @param $query
      * @param int $countSeconds
@@ -217,7 +217,7 @@ trait Moments
     }
 
     /**
-     * Only include the last x minutes records from model.
+     * Include the last x minutes records from model.
      *
      * @param $query
      * @param int $countMinutes
@@ -234,7 +234,7 @@ trait Moments
     }
 
     /**
-     * Only include the last x hours records from model.
+     * Include the last x hours records from model.
      *
      * @param $query
      * @param int $countHours
@@ -251,7 +251,7 @@ trait Moments
     }
 
     /**
-     * Only include the last x days records from model.
+     * Include the last x days records from model.
      *
      * @param $query
      * @param int $countDays
@@ -268,7 +268,7 @@ trait Moments
     }
 
     /**
-     * Only include the last x weeks records from model.
+     * Include the last x weeks records from model.
      *
      * @param $query
      * @param int $countWeeks
@@ -285,7 +285,7 @@ trait Moments
     }
 
     /**
-     * Only include the last x months records from model.
+     * Include the last x months records from model.
      *
      * @param $query
      * @param int $countMonths
@@ -302,7 +302,7 @@ trait Moments
     }
 
     /**
-     * Only include the last x years records from model.
+     * Include the last x years records from model.
      *
      * @param $query
      * @param int $countYears
