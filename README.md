@@ -2,6 +2,12 @@
 
 A laravel trait to deal with time and dates with scope for eloquent models.
 
+## Installation
+
+Install using composer
+
+`composer require rukhsar/moments`
+
 
 ## Usage
 
