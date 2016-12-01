@@ -1,0 +1,15 @@
+{
+    "name": "rukhsar/moments",
+    "description": "A laravel trait to deal with time and dates with scope for eloquent models.",
+    "license": "MIT",
+    "authors": [{"name": "Rukhsar Manzoor", "email": "rukhsar.man@gmail.com"}],
+    "require": {
+        "php": ">=5.4.0",
+        "laravel/framework": ">=5.2"
+    },
+      "autoload": {
+      "psr-4": {
+          "Rukhsar\\Moments\\": "src"
+        }
+    }
+  }
